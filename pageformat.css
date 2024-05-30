@@ -1,0 +1,162 @@
+body {margin:0;}
+
+.img1 {
+    margin:30px 45%; 
+    width:10%; 
+    z-index:10; 
+    position:fixed;
+}
+
+.img2 {
+    width:100%; 
+    height:130px; 
+    z-index:9; 
+    position:fixed; 
+    left:0px; 
+    top:-10px;
+}
+
+.img3 {
+    width:100%; 
+    height:100%; 
+    z-index:-1; 
+    position:fixed; 
+    left:0px; 
+    top:150px;
+}
+
+h1 {text-align:right;}
+
+th {text-align:center;}
+
+.menu {
+    table-layout: fixed;
+    width:100%; 
+    padding:5px 0px 5px 0px; 
+    background-color:#6a0875; 
+    font-family:sans-serif; 
+    color:#d93250; 
+    position:fixed; 
+    top:120px; 
+    z-index:8
+}
+
+
+.custommarquee {
+    margin: -5px 0px 0px 0px; 
+    border:0; 
+    scrollamount:20%; 
+    background-color:cyan; 
+    color:#991569; 
+    position:fixed; 
+    z-index:7; 
+    top:158px;
+}
+
+
+
+.content {
+    background-color:rgba(30, 30, 33, 0.9); 
+    color:white; 
+    margin: 30px 50px 300px 50px; 
+    padding:40px; 
+    font-size:17pt; 
+    text-align:justify; 
+    position: relative;
+    top:168px;
+}
+
+.firstline {
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    table-layout: fixed;
+    width: 100%;
+    bottom: 0%;
+    background-color: white;
+    text-align: center;
+    color: #d93250;
+    position: inherit;
+}
+
+.social {width:100px; height:100px;}
+
+.contbg {
+    width:100%;
+    z-index: -1;
+}
+
+.contmapimg {
+    z-index: 0;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 50%
+}
+
+.viewspace {
+    z-index: 2;
+    position:absolute;
+    top: 200px;
+    left: 860px;
+    width: 600px;
+    height: 400px;
+}
+
+.textspace {
+    z-index: 2;
+    position:absolute;
+    font-size: 20pt;
+    text-align: justify;
+    background-color: rgba(96, 8, 110, 0.731);
+    color: antiquewhite;
+    top: 692px;
+    left: 860px;
+    width: 570px;
+    border: 0px;
+    padding: 15px;
+}
+
+.lastcont {
+    background-color:rgba(30, 30, 33, 0.9); 
+    color:white; 
+    margin: 30px 50px 300px 50px; 
+    padding:40px; 
+    font-size:17pt; 
+    text-align:justify; 
+    position: relative;
+    top:168px;
+}
+
+.nemo {
+    margin-left: 30%;
+    width: 40%;
+}
+
+.nemo2 {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.results {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.lastbg {
+    width:100%; 
+    height:100%; 
+    z-index:-1; 
+    position:fixed; 
+    left:0px; 
+    top:150px;
+}
+
+/*remove underline & change of colour to look like a real menu*/
+a:link {color:#d93250; text-decoration:none;} 
+a:visited {color:#d93250;}
+a:hover {text-decoration:underline}
+
